@@ -1,0 +1,185 @@
+body {
+  font-family: "Fredoka One"
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title{
+  text-align: center;
+}
+
+.main {
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.left{
+  flex-grow: 1;
+  text-align: left;
+}
+
+.middle{
+  flex-grow: 2;
+  text-align: center;
+}
+
+.right{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.stat {
+
+  display: flex;
+  margin: 4px;
+  width: 300px;
+}
+
+.statLeft {
+
+  text-align: right;
+  color: #1D428A;
+}
+
+.statRight {
+
+    text-align: right;
+    flex-grow: 2;
+    color: #FFBC1B;
+}
+
+.socials{
+  display: flex;
+  position: absolute;
+  right: 0
+
+}
+.hov a:last-child {
+  display: none;
+}
+
+.hov:hover a:last-child {
+  display: block;
+}
+.hov:hover a:first-child {
+  display: none;
+}
+
+.links{
+  display: flex;
+  text-align: center;
+}
+.navbar {
+
+  max-width: 300px;
+  overflow: hidden;
+  background-color: #00aaff;
+  color: #F2BF1C
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #ffc200;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffc200;
+  color: #00aaff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00aaff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: #ffc200;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Awards {
+  display:flex;
+  flex-direction: column;
+  max-width: 1500px;
+}
+
+.AwardsTitle {
+  font-size: 30px;
+  color: #C8102E;
+}
+.TeamsTitle {
+  font-size: 30px;
+  color: #552583;
+}
+
+.AwardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Award {
+  margin: 15px;
+  display: flex;
+  width: 250px;
+}
+
+.Icon {
+  margin: 4px;
+}
+
+.AwardName {
+color: #1D428A;
+}
+
+.AwardYear {
+color: #FFC72C;
+}
+
+.AwardInfo {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
